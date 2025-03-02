@@ -18,6 +18,7 @@ const Hero = () => {
                 Making Every Transaction Rewarding for Buyers and Profitable for Sellers
 
                 </h1>
+                 {/* eslint-disable-next-line react/no-unescaped-entities */}
                 <p className="mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
                 HomeMaker transforms household spending into valuable rewards for buyers while maximizing profits for sellers. Whether you are purchasing essentials or selling your products, our platform ensures a seamless and beneficial experience for both parties.
 
