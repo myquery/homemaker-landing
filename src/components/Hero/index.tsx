@@ -15,7 +15,7 @@ const Hero = () => {
               <div className="mx-auto max-w-[800px] text-center">
                 {/* eslint-disable-next-line react/no-unescaped-entities */}
                 <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
-                Making Every Transaction Rewarding for Buyers and Profitable for Sellers
+                Making Every Household Shopping Data Rewarding for Buyers and Profitable for Sellers
 
                 </h1>
                  {/* eslint-disable-next-line react/no-unescaped-entities */}
@@ -25,7 +25,7 @@ const Hero = () => {
                </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link
-                    href="https://nextjstemplates.com/templates/saas-starter-startup"
+                    href="/"
                     className="rounded-sm bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
                   >
                     Get Started
