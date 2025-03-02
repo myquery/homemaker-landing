@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Link from "next/link";
 
 const Hero = () => {
@@ -12,7 +13,8 @@ const Hero = () => {
             <div className="w-full px-4">
               <div className="mx-auto max-w-[800px] text-center">
                 <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
-                HomeMaker App – Making Every Transaction Rewarding for Buyers and Profitable for Sellers
+                HomeMaker App &ndash; Making Every Transaction Rewarding for Buyers and Profitable for Sellers
+
                 </h1>
                 <p className="mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
                 HomeMaker App transforms household spending into valuable rewards for buyers while maximizing profits for sellers. Whether you're purchasing essentials or selling your products, our platform ensures a seamless and beneficial experience for both parties.
