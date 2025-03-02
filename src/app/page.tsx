@@ -13,7 +13,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Homemaker App, Making shopping rewarding",
-  description: "HomeMaker transforms household spending into valuable rewards for buyers while maximizing profits for sellers,
+  description: "HomeMaker transforms household spending into valuable rewards for buyers while maximizing profits for sellers",
   // other metadata
 };
 
