@@ -15,7 +15,7 @@ const Hero = () => {
               <div className="mx-auto max-w-[800px] text-center">
                 {/* eslint-disable-next-line react/no-unescaped-entities */}
                 <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
-                Making Every Household Shopping Data Rewarding for Buyers and Profitable for Sellers
+                Making Every Household Shopping List Rewarding for Buyers and Profitable for Sellers
 
                 </h1>
                  {/* eslint-disable-next-line react/no-unescaped-entities */}
