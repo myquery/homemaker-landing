@@ -1,0 +1,10 @@
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <!-- House shape (simplified for small size) -->
+  <path d="M16 4L4 16H8V28H24V16H28L16 4Z" fill="#F59E0B"/>
+  <!-- Roof accent -->
+  <path d="M4 16L16 4L28 16" stroke="#B45309" stroke-width="2" fill="none"/>
+  <!-- Door -->
+  <rect x="12" y="18" width="8" height="10" fill="#B45309"/>
+  <!-- Text (simplified to "HM" for small size) -->
+  <text x="16" y="14" font-family="Arial" font-size="6" font-weight="bold" text-anchor="middle" fill="#B45309">HM</text>
+</svg>
