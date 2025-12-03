@@ -1,223 +1,162 @@
-
 'use client'
-/* eslint-disable react/no-unescaped-entities */
 
 import Link from "next/link";
+import Image from "next/image";
+import { ArrowRightIcon, PlayIcon, ShoppingBagIcon, HomeIcon, CurrencyDollarIcon, StarIcon } from '@heroicons/react/24/outline';
 
 const Hero = () => {
   return (
     <>
-      <section
-        id="home"
-        className="relative z-10 overflow-hidden bg-gradient-to-b from-amber-50 to-white pb-16 pt-[120px] dark:from-gray-800 dark:to-gray-900 md:pb-[120px] md:pt-[150px] xl:pb-[160px] xl:pt-[180px] 2xl:pb-[200px] 2xl:pt-[210px]"
-      >
-        <div className="container">
-          <div className="-mx-4 flex flex-wrap">
-            <div className="w-full px-4">
-              <div className="mx-auto max-w-[800px] text-center">
-                <h1 className="mb-5 text-3xl font-bold leading-tight text-amber-900 dark:text-amber-100 sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
-                  <span className="inline-block pb-2">Smart Household Shopping,</span><br />
-                  <span className="inline-block bg-gradient-to-r from-amber-500 to-amber-700 bg-clip-text pb-2 text-transparent dark:from-amber-400 dark:to-amber-600">Warmer Homes</span>
+      <section className="relative overflow-hidden bg-white pt-[120px] pb-20 dark:bg-gray-900 lg:pt-[150px]">
+        <div className="container mx-auto">
+          <div className="flex flex-wrap items-center">
+            {/* Left Content */}
+            <div className="w-full px-4 lg:w-1/2">
+              <div className="mb-12 max-w-[570px] lg:mb-0">
+                <span className="mb-4 inline-flex items-center gap-2 rounded-full bg-amber-100 px-4 py-2 text-sm font-medium text-amber-800 dark:bg-amber-900/30 dark:text-amber-300">
+                  <HomeIcon className="h-4 w-4" />
+                  Smart Home Shopping
+                </span>
+                <h1 className="mb-8 text-4xl font-black leading-[1.1] text-gray-900 dark:text-white sm:text-5xl lg:text-6xl xl:text-7xl">
+                  Turn Every
+                  <span className="block bg-gradient-to-r from-amber-500 to-orange-500 bg-clip-text text-transparent">
+                    Purchase
+                  </span>
+                  Into Rewards
                 </h1>
-                <p className="mb-12 text-base !leading-relaxed text-gray-700 dark:text-gray-300 sm:text-lg md:text-xl">
-                  HomeMaker blends technology with homemaking wisdom, turning your everyday shopping into rewarding experiences. Earn points on groceries, discover smart home solutions, and enjoy exclusive deals with $HOME token—all while building a cozier, more efficient home.
+                <p className="mb-10 text-xl leading-relaxed text-gray-600 dark:text-gray-300 max-w-lg">
+                  HomeMaker transforms your everyday household shopping into valuable rewards. Earn $HOME tokens on groceries, discover smart deals, and build a more efficient home.
                 </p>
-                <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
+                <div className="flex flex-col gap-4 sm:flex-row">
                   <Link
-                    href="/"
-                    className="rounded-lg bg-gradient-to-r from-amber-500 to-amber-600 px-8 py-4 text-base font-semibold text-white shadow-lg shadow-amber-500/20 duration-300 ease-in-out hover:from-amber-600 hover:to-amber-700 hover:shadow-amber-600/30"
+                    href="#"
+                    className="inline-flex items-center justify-center rounded-xl bg-gradient-to-r from-amber-500 to-orange-500 px-8 py-4 text-base font-semibold text-white transition-all duration-300 hover:from-amber-600 hover:to-orange-600 hover:shadow-lg"
                   >
-                    Start Saving Today
+                    Get Started Free
+                    <ArrowRightIcon className="ml-2 h-5 w-5" />
                   </Link>
                   <Link
-                    href="/how-it-works"
-                    className="inline-block rounded-lg border-2 border-amber-500 bg-transparent px-8 py-4 text-base font-semibold text-amber-700 duration-300 ease-in-out hover:bg-amber-50/50 dark:text-amber-300 dark:hover:bg-amber-900/20"
+                    href="#"
+                    className="inline-flex items-center justify-center rounded-xl border-2 border-gray-200 bg-white px-8 py-4 text-base font-semibold text-gray-700 transition-all duration-300 hover:border-amber-300 hover:bg-amber-50 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:border-amber-500 dark:hover:bg-gray-700"
                   >
-                    How It Works
+                    <PlayIcon className="mr-2 h-5 w-5" />
+                    Watch Demo
                   </Link>
+                </div>
+                
+                {/* Stats */}
+                <div className="mt-12 flex flex-wrap gap-8">
+                  <div className="text-center">
+                    <div className="text-2xl font-bold text-amber-600 dark:text-amber-400">10K+</div>
+                    <div className="text-sm text-gray-600 dark:text-gray-400">Active Users</div>
+                  </div>
+                  <div className="text-center">
+                    <div className="text-2xl font-bold text-amber-600 dark:text-amber-400">$2M+</div>
+                    <div className="text-sm text-gray-600 dark:text-gray-400">Rewards Earned</div>
+                  </div>
+                  <div className="text-center">
+                    <div className="text-2xl font-bold text-amber-600 dark:text-amber-400">500+</div>
+                    <div className="text-sm text-gray-600 dark:text-gray-400">Partner Stores</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            {/* Right Content - App Preview */}
+            <div className="w-full px-4 lg:w-1/2">
+              <div className="relative mx-auto max-w-[500px] lg:ml-auto lg:mr-0">
+                {/* Phone Mockup */}
+                <div className="relative z-10 mx-auto w-[280px] rounded-[3rem] bg-gray-900 p-2 shadow-2xl">
+                  <div className="overflow-hidden rounded-[2.5rem] bg-white">
+                    <div className="h-[560px] bg-gradient-to-b from-amber-50 to-white p-6">
+                      {/* App Header */}
+                      <div className="mb-6 flex items-center justify-between">
+                        <div className="flex items-center gap-2">
+                          <div className="h-8 w-8 rounded-lg bg-amber-500"></div>
+                          <span className="font-semibold text-gray-900">HomeMaker</span>
+                        </div>
+                        <div className="flex gap-1">
+                          <div className="h-2 w-2 rounded-full bg-gray-300"></div>
+                          <div className="h-2 w-2 rounded-full bg-gray-300"></div>
+                          <div className="h-2 w-2 rounded-full bg-amber-500"></div>
+                        </div>
+                      </div>
+                      
+                      {/* Balance Card */}
+                      <div className="mb-6 rounded-2xl bg-gradient-to-r from-amber-500 to-orange-500 p-4 text-white">
+                        <div className="text-sm opacity-90">Your Balance</div>
+                        <div className="text-2xl font-bold">2,450 $HOME</div>
+                        <div className="text-sm opacity-90">≈ $245.00</div>
+                      </div>
+                      
+                      {/* Quick Actions */}
+                      <div className="mb-6">
+                        <div className="mb-3 text-sm font-semibold text-gray-700">Quick Actions</div>
+                        <div className="grid grid-cols-2 gap-3">
+                          <div className="rounded-xl bg-white p-3 shadow-sm">
+                            <div className="mb-2 h-8 w-8 rounded-lg bg-green-100 flex items-center justify-center">
+                              <ShoppingBagIcon className="h-4 w-4 text-green-600" />
+                            </div>
+                            <div className="text-xs font-medium">Shop & Earn</div>
+                          </div>
+                          <div className="rounded-xl bg-white p-3 shadow-sm">
+                            <div className="mb-2 h-8 w-8 rounded-lg bg-blue-100 flex items-center justify-center">
+                              <CurrencyDollarIcon className="h-4 w-4 text-blue-600" />
+                            </div>
+                            <div className="text-xs font-medium">Redeem</div>
+                          </div>
+                        </div>
+                      </div>
+                      
+                      {/* Recent Activity */}
+                      <div>
+                        <div className="mb-3 text-sm font-semibold text-gray-700">Recent Activity</div>
+                        <div className="space-y-3">
+                          <div className="flex items-center gap-3">
+                            <div className="h-8 w-8 rounded-lg bg-green-100 flex items-center justify-center">
+                              <span className="text-xs">+50</span>
+                            </div>
+                            <div className="flex-1">
+                              <div className="text-xs font-medium">Grocery Shopping</div>
+                              <div className="text-xs text-gray-500">Whole Foods</div>
+                            </div>
+                          </div>
+                          <div className="flex items-center gap-3">
+                            <div className="h-8 w-8 rounded-lg bg-amber-100 flex items-center justify-center">
+                              <span className="text-xs">+25</span>
+                            </div>
+                            <div className="flex-1">
+                              <div className="text-xs font-medium">Home Supplies</div>
+                              <div className="text-xs text-gray-500">Target</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                {/* Floating Icons */}
+                <div className="absolute -top-4 -right-4 z-0 h-16 w-16 rounded-full bg-amber-100 flex items-center justify-center opacity-60 animate-pulse">
+                  <HomeIcon className="h-8 w-8 text-amber-600" />
+                </div>
+                <div className="absolute -bottom-8 -left-8 z-0 h-20 w-20 rounded-full bg-orange-100 flex items-center justify-center opacity-40 animate-pulse">
+                  <CurrencyDollarIcon className="h-10 w-10 text-orange-600" />
+                </div>
+                <div className="absolute top-1/2 -right-8 z-0 h-14 w-14 rounded-full bg-yellow-100 flex items-center justify-center opacity-50 animate-pulse">
+                  <StarIcon className="h-7 w-7 text-yellow-600" />
                 </div>
               </div>
             </div>
           </div>
         </div>
         
-        {/* Tech-inspired background elements with homey touches */}
-        <div className="absolute right-0 top-0 z-[-1] opacity-30 lg:opacity-100">
-          <svg
-            width="450"
-            height="556"
-            viewBox="0 0 450 556"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            {/* Kitchen-inspired shapes */}
-            <path
-              d="M300 100C300 44.7715 255.228 0 200 0C144.772 0 100 44.7715 100 100V456C100 511.228 144.772 556 200 556C255.228 556 300 511.228 300 456V100Z"
-              fill="url(#paint0_linear_home)"
-            />
-            {/* Shopping cart icon silhouette */}
-            <path
-              d="M400 200H350L325 250H225L200 200H100V250H175L200 300H325L350 250H400V200Z"
-              fill="url(#paint1_linear_home)"
-              opacity="0.8"
-            />
-            {/* Reward coin */}
-            <circle
-              cx="350"
-              cy="400"
-              r="50"
-              fill="url(#paint2_radial_home)"
-              stroke="url(#paint3_linear_home)"
-              strokeWidth="5"
-            />
-            <defs>
-              {/* <linearGradient
-                id="paint0_linear_home"
-                x1="200"
-                y1="0"
-                x2="200"
-                y2="556"
-                gradientUnits="userSpaceOnUse"
-              >
-                <stop stopColor="#FDE68A" />
-                <stop offset="1" stopColor="#F59E0B" stopOpacity="0.3" />
-              </linearGradient> */}
-              {/* <linearGradient
-                id="paint1_linear_home"
-                x1="250"
-                y1="200"
-                x2="250"
-                y2="300"
-                gradientUnits="userSpaceOnUse"
-              >
-                <stop stopColor="#F59E0B" />
-                <stop offset="1" stopColor="#B45309" />
-              </linearGradient> */}
-              {/* <radialGradient
-                id="paint2_radial_home"
-                cx="0"
-                cy="0"
-                r="1"
-                gradientUnits="userSpaceOnUse"
-                gradientTransform="translate(350 400) rotate(90) scale(50)"
-              >
-                <stop offset="0.1" stopColor="#FCD34D" />
-                <stop offset="1" stopColor="#F59E0B" />
-              </radialGradient> */}
-              {/* <linearGradient
-                id="paint3_linear_home"
-                x1="350"
-                y1="345"
-                x2="350"
-                y2="455"
-                gradientUnits="userSpaceOnUse"
-              >
-                <stop stopColor="#92400E" />
-                <stop offset="1" stopColor="#B45309" />
-              </linearGradient> */}
-            </defs>
-          </svg>
+        {/* Background Pattern */}
+        <div className="absolute inset-0 -z-10 overflow-hidden">
+          <div className="absolute -top-40 -right-32 h-80 w-80 rounded-full bg-gradient-to-br from-amber-100 to-orange-100 opacity-30 blur-3xl"></div>
+          <div className="absolute -bottom-40 -left-32 h-80 w-80 rounded-full bg-gradient-to-tr from-yellow-100 to-amber-100 opacity-30 blur-3xl"></div>
         </div>
-        
-        {/* Bottom decorative elements */}
-        <div className="absolute bottom-0 left-0 z-[-1] opacity-30 lg:opacity-100">
-          <svg
-            width="364"
-            height="201"
-            viewBox="0 0 364 201"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            {/* Grocery items silhouette */}
-            {/* <path
-              d="M50 150L75 100L100 150L125 100L150 150"
-              stroke="url(#paint0_linear_bottom)"
-              strokeWidth="8"
-              strokeLinecap="round"
-            /> */}
-            {/* Kitchen whisk */}
-            {/* <path
-              d="M200 50V150M200 80L220 60M200 80L180 60M200 120L220 140M200 120L180 140"
-              stroke="url(#paint1_linear_bottom)"
-              strokeWidth="4"
-            /> */}
-            {/* Smart home icon */}
-            {/* <path
-              d="M300 50H250V100H300V50ZM275 100V150M250 125H300"
-              stroke="url(#paint2_linear_bottom)"
-              strokeWidth="4"
-            /> */}
-            <defs>
-              <linearGradient
-                id="paint0_linear_bottom"
-                x1="100"
-                y1="100"
-                x2="100"
-                y2="150"
-                gradientUnits="userSpaceOnUse"
-              >
-                <stop stopColor="#F59E0B" />
-                <stop offset="1" stopColor="#B45309" />
-              </linearGradient>
-              <linearGradient
-                id="paint1_linear_bottom"
-                x1="200"
-                y1="50"
-                x2="200"
-                y2="150"
-                gradientUnits="userSpaceOnUse"
-              >
-                <stop stopColor="#F59E0B" />
-                <stop offset="1" stopColor="#92400E" />
-              </linearGradient>
-              <linearGradient
-                id="paint2_linear_bottom"
-                x1="275"
-                y1="50"
-                x2="275"
-                y2="150"
-                gradientUnits="userSpaceOnUse"
-              >
-                <stop stopColor="#FCD34D" />
-                <stop offset="1" stopColor="#F59E0B" />
-              </linearGradient>
-            </defs>
-          </svg>
-        </div>
-        
-        {/* Floating household items */}
-        {/* <div className="absolute top-1/4 left-10 hidden animate-float lg:block">
-          <svg width="60" height="60" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="#F59E0B" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-            <path d="M2 17L12 22L22 17" stroke="#F59E0B" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-            <path d="M2 12L12 17L22 12" stroke="#F59E0B" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-          </svg>
-        </div> */}
-        {/* <div className="absolute top-1/3 right-20 hidden animate-float-delay lg:block">
-          <svg width="50" height="50" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M3 3H21L19 12H5L3 3Z" stroke="#B45309" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-            <path d="M9 18C9 18.5523 8.55228 19 8 19C7.44772 19 7 18.5523 7 18C7 17.4477 7.44772 17 8 17C8.55228 17 9 17.4477 9 18Z" stroke="#B45309" strokeWidth="2"/>
-            <path d="M17 18C17 18.5523 16.5523 19 16 19C15.4477 19 15 18.5523 15 18C15 17.4477 15.4477 17 16 17C16.5523 17 17 17.4477 17 18Z" stroke="#B45309" strokeWidth="2"/>
-          </svg>
-        </div> */}
       </section>
-      
-      <style jsx global>{`
-        @keyframes float {
-          0%, 100% {
-            transform: translateY(0);
-          }
-          50% {
-            transform: translateY(-15px);
-          }
-        }
-        .animate-float {
-          animation: float 6s ease-in-out infinite;
-        }
-        .animate-float-delay {
-          animation: float 6s ease-in-out 1s infinite;
-        }
-      `}</style>
     </>
   );
 };

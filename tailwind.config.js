@@ -34,6 +34,10 @@ module.exports = {
       // => @media (min-width: 1400px) { ... }
     },
     extend: {
+      fontFamily: {
+        'poppins': ['Poppins', 'Inter', 'sans-serif'],
+        'dm-sans': ['DM Sans', 'Inter', 'sans-serif'],
+      },
       colors: {
         current: "currentColor",
         transparent: "transparent",
