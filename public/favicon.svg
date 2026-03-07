@@ -1,10 +1,15 @@
-<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
-  <!-- House shape (simplified for small size) -->
-  <path d="M16 4L4 16H8V28H24V16H28L16 4Z" fill="#F59E0B"/>
-  <!-- Roof accent -->
-  <path d="M4 16L16 4L28 16" stroke="#B45309" stroke-width="2" fill="none"/>
-  <!-- Door -->
-  <rect x="12" y="18" width="8" height="10" fill="#B45309"/>
-  <!-- Text (simplified to "HM" for small size) -->
-  <text x="16" y="14" font-family="Arial" font-size="6" font-weight="bold" text-anchor="middle" fill="#B45309">HM</text>
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="homaFav" x1="2" y1="2" x2="30" y2="30" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6A7F39"/>
+      <stop offset="1" stop-color="#C06A37"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="2" y="2" width="28" height="28" rx="8" fill="url(#homaFav)"/>
+
+  <path d="M9 16L16 9L23 16" stroke="#F8FAF5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M11 22V14M21 22V14M11 18H21" stroke="#F8FAF5" stroke-width="2" stroke-linecap="round"/>
+  <path d="M17 8.5C19.8 8.7 22 10.1 23.4 12.2" stroke="#FBF4EC" stroke-width="1.5" stroke-linecap="round"/>
+  <circle cx="23" cy="11.5" r="1.2" fill="#FBF4EC"/>
 </svg>

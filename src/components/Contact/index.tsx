@@ -1,7 +1,3 @@
-
-
-// import NewsLatterBox from "./NewsLatterBox";
-
 const Contact = () => {
   return (
     <section id="contact" className="overflow-hidden py-16 md:py-20 lg:py-28">
@@ -9,14 +5,14 @@ const Contact = () => {
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4 lg:w-12/12 xl:w-12/12">
             <div
-              className="mb-12 rounded-lg bg-amber-50 px-8 py-11 shadow-three dark:bg-gray-900 sm:p-[55px] lg:mb-5 lg:px-8 xl:p-[55px]"
+              className="mb-12 rounded-lg bg-homa-50 px-8 py-11 shadow-three dark:bg-gray-900 sm:p-[55px] lg:mb-5 lg:px-8 xl:p-[55px]"
               data-wow-delay=".15s"
             >
-              <h2 className="mb-3 text-2xl font-bold text-amber-900 dark:text-amber-100 sm:text-3xl lg:text-2xl xl:text-3xl">
-                Join Our Homemaker Community
+              <h2 className="mb-3 text-2xl font-bold text-homa-900 dark:text-homa-100 sm:text-3xl lg:text-2xl xl:text-3xl">
+                Join the Homa Circle
               </h2>
-              <p className="mb-12 text-base font-medium text-amber-800 dark:text-amber-200">
-                Be the first to know how we&rsquo;ll transform your household shopping experience
+              <p className="mb-12 text-base font-medium text-homa-800 dark:text-homa-200">
+                Tell us how you want to earn, hold, grow, spend, cooperate, and govern better.
               </p>
               <form>
                 <div className="-mx-4 flex flex-wrap">
@@ -24,14 +20,14 @@ const Contact = () => {
                     <div className="mb-8">
                       <label
                         htmlFor="name"
-                        className="mb-3 block text-sm font-medium text-amber-900 dark:text-amber-100"
+                        className="mb-3 block text-sm font-medium text-homa-900 dark:text-homa-100"
                       >
                         Your Name
                       </label>
                       <input
                         type="text"
                         placeholder="Enter your name"
-                        className="border-amber-300 w-full rounded-lg border bg-amber-100 px-6 py-3 text-base text-amber-900 outline-none focus:border-amber-500 dark:border-amber-700 dark:bg-amber-900/30 dark:text-amber-100 dark:shadow-none dark:focus:border-amber-500"
+                        className="w-full rounded-lg border border-homa-300 bg-white px-6 py-3 text-base text-homa-900 outline-none focus:border-homa-500 dark:border-homa-700 dark:bg-homa-900/20 dark:text-homa-100 dark:shadow-none dark:focus:border-homa-500"
                       />
                     </div>
                   </div>
@@ -39,14 +35,14 @@ const Contact = () => {
                     <div className="mb-8">
                       <label
                         htmlFor="email"
-                        className="mb-3 block text-sm font-medium text-amber-900 dark:text-amber-100"
+                        className="mb-3 block text-sm font-medium text-homa-900 dark:text-homa-100"
                       >
                         Your Email
                       </label>
                       <input
                         type="email"
                         placeholder="Enter your email"
-                        className="border-amber-300 w-full rounded-lg border bg-amber-100 px-6 py-3 text-base text-amber-900 outline-none focus:border-amber-500 dark:border-amber-700 dark:bg-amber-900/30 dark:text-amber-100 dark:shadow-none dark:focus:border-amber-500"
+                        className="w-full rounded-lg border border-homa-300 bg-white px-6 py-3 text-base text-homa-900 outline-none focus:border-homa-500 dark:border-homa-700 dark:bg-homa-900/20 dark:text-homa-100 dark:shadow-none dark:focus:border-homa-500"
                       />
                     </div>
                   </div>
@@ -54,21 +50,21 @@ const Contact = () => {
                     <div className="mb-8">
                       <label
                         htmlFor="message"
-                        className="mb-3 block text-sm font-medium text-amber-900 dark:text-amber-100"
+                        className="mb-3 block text-sm font-medium text-homa-900 dark:text-homa-100"
                       >
-                        Your Household Needs
+                        What are your finance priorities?
                       </label>
                       <textarea
                         name="message"
                         rows={5}
-                        placeholder="Tell us about your shopping challenges"
-                        className="border-amber-300 w-full resize-none rounded-lg border bg-amber-100 px-6 py-3 text-base text-amber-900 outline-none focus:border-amber-500 dark:border-amber-700 dark:bg-amber-900/30 dark:text-amber-100 dark:shadow-none dark:focus:border-amber-500"
+                        placeholder="Share your goals for earning, holding, growing, spending, cooperating, or governing"
+                        className="w-full resize-none rounded-lg border border-homa-300 bg-white px-6 py-3 text-base text-homa-900 outline-none focus:border-homa-500 dark:border-homa-700 dark:bg-homa-900/20 dark:text-homa-100 dark:shadow-none dark:focus:border-homa-500"
                       ></textarea>
                     </div>
                   </div>
                   <div className="w-full px-4">
-                    <button className="rounded-lg bg-gradient-to-r from-amber-500 to-amber-600 px-9 py-4 text-base font-medium text-white shadow-amber-500/20 shadow-submit duration-300 hover:from-amber-600 hover:to-amber-700 hover:shadow-amber-600/30 dark:shadow-none">
-                      Join Waitlist
+                    <button className="rounded-lg bg-gradient-to-r from-homa-700 to-clay-600 px-9 py-4 text-base font-medium text-white shadow-submit duration-300 hover:from-homa-800 hover:to-clay-700 dark:shadow-none">
+                      Request Early Access
                     </button>
                   </div>
                 </div>

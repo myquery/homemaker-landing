@@ -15,10 +15,10 @@ const AboutSectionOne = () => {
   const features = [
     "Smart shopping lists with AI recommendations",
     "Exclusive member rewards and cashback",
-    "Family-friendly budgeting tools",
+    "Personal budgeting tools",
     "Personalized deals from 500+ stores",
     "Real-time spending analytics",
-    "Secure $HOME token wallet"
+    "Secure $HOMA token wallet"
   ];
 
   return (
@@ -29,16 +29,16 @@ const AboutSectionOne = () => {
             <div className="max-w-[570px]">
               <span className="inline-flex items-center gap-2 rounded-full bg-amber-100 px-4 py-2 text-sm font-medium text-amber-800 dark:bg-amber-900/30 dark:text-amber-300 mb-4">
                 <ShieldCheckIcon className="h-4 w-4" />
-                Why Choose HomeMaker
+                Why Choose Homa
               </span>
               <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-6">
                 Built for Modern
                 <span className="block bg-gradient-to-r from-amber-500 to-orange-500 bg-clip-text text-transparent">
-                  Homemakers
+                  Users
                 </span>
               </h2>
               <p className="text-lg text-gray-600 dark:text-gray-300 mb-8 leading-relaxed">
-                HomeMaker revolutionizes household management by combining smart shopping with rewarding experiences. Save time, earn rewards, and make every purchase count toward building your dream home.
+                Homa modernizes personal money management by combining smart shopping with rewarding experiences. Save time, earn rewards, and make every purchase count toward your goals.
               </p>
               
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -65,7 +65,7 @@ const AboutSectionOne = () => {
                   </div>
                   <div>
                     <div className="text-lg font-semibold text-gray-900 dark:text-white">
-                      Join 10,000+ homemakers
+                      Join 10,000+ users
                     </div>
                     <div className="text-sm text-gray-600 dark:text-gray-300">
                       Already earning rewards daily
@@ -81,14 +81,14 @@ const AboutSectionOne = () => {
               <div className="relative z-10">
                 <Image
                   src="/images/about/homemaker-shopping-orange.svg"
-                  alt="Happy homemaker shopping"
+                  alt="Happy Homa user shopping"
                   width={500}
                   height={480}
                   className="mx-auto max-w-full dark:hidden"
                 />
                 <Image
                   src="/images/about/homemaker-woman-shopping.svg"
-                  alt="Happy homemaker shopping at night"
+                  alt="Happy Homa user shopping at night"
                   width={500}
                   height={480}
                   className="mx-auto hidden max-w-full dark:block"

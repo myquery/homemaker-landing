@@ -8,8 +8,9 @@ import CTA from "@/components/CTA";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Homemaker App, Making shopping rewarding",
-  description: "HomeMaker transforms household spending into valuable rewards for buyers while maximizing profits for sellers",
+  title: "Homa, Earn Hold Grow Spend Cooperate Govern",
+  description:
+    "Homa combines token mining, multi-asset holding, investing, intelligent shopping, cooperative buying, and personal governance in one app.",
   icons: {
     icon: "/favicon.svg", // This replaces favicon.ico
   },
@@ -22,7 +23,7 @@ export default function Home() {
       <ScrollUp />
       <Hero />
       <ModernFeatures />
-      <HowItWorks />
+      {/* <HowItWorks /> */}
       <Stats />
       <CTA />
       <Contact />

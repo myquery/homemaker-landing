@@ -269,10 +269,10 @@ const NewsLatterBox = () => {
   return (
     <div className="relative z-10 rounded-lg bg-amber-50 p-8 shadow-three dark:bg-gray-900 sm:p-11 lg:p-8 xl:p-11">
       <h3 className="mb-4 text-2xl font-bold leading-tight text-amber-900 dark:text-amber-100">
-        Get Homemaker Updates
+        Get Homa Updates
       </h3>
       <p className="mb-11 border-b border-amber-200 pb-11 text-base leading-relaxed text-amber-800 dark:border-amber-800/30 dark:text-amber-200">
-        Join our newsletter to receive tips, early access, and exclusive offers for modern homemakers.
+        Join our newsletter to receive tips, early access, and exclusive offers for modern users.
       </p>
       <div>
         <input
