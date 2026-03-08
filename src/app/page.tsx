@@ -8,9 +8,9 @@ import CTA from "@/components/CTA";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Homa, Earn Hold Grow Spend Cooperate Govern",
+  title: "Homa, Hold Wealth Where It Works Harder",
   description:
-    "Homa combines token mining, multi-asset holding, investing, intelligent shopping, cooperative buying, and personal governance in one app.",
+    "Homa helps you hold naira, stable assets, tokenized instruments, marketplace value, and cooperative savings in one visible wealth stack.",
   // other metadata
 };
 

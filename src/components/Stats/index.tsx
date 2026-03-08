@@ -1,40 +1,40 @@
 'use client'
 
 import {
-  UsersIcon,
+  CircleStackIcon,
   CurrencyDollarIcon,
   ChartBarIcon,
-  BuildingLibraryIcon,
+  SparklesIcon,
   LockClosedIcon,
   ShieldCheckIcon,
-  ClockIcon,
+  ArrowsRightLeftIcon,
 } from '@heroicons/react/24/outline';
 
 const Stats = () => {
   const stats = [
     {
-      number: '$8.4M+',
-      label: 'Personal Assets Tracked',
-      description: 'Across token, cash, and investment holdings',
-      icon: BuildingLibraryIcon,
+      number: '01',
+      label: 'What You Are Holding',
+      description: 'Naira, USDT, HOMA, tokenized instruments, marketplace value, and cooperative balances in one live ledger.',
+      icon: CircleStackIcon,
     },
     {
-      number: '42K+',
-      label: 'Token Mining Events',
-      description: 'Verified earning actions completed monthly',
+      number: '02',
+      label: 'What It Is Returning',
+      description: 'Base yield from sweeps, instruments, discounts, or pools shown clearly instead of hidden across different apps.',
       icon: CurrencyDollarIcon,
     },
     {
-      number: '19%',
-      label: 'Average Basket Savings',
-      description: 'From intelligent shopping and group buying',
+      number: '03',
+      label: 'What Homa Adds',
+      description: 'Routing, optimization, receipt intelligence, and policy decisions layered on top of the base return.',
       icon: ChartBarIcon,
     },
     {
-      number: '7.8K',
-      label: 'Self-Governed Portfolios',
-      description: 'Active personal policies and decision workflows',
-      icon: UsersIcon,
+      number: '04',
+      label: 'Total Wealth Position',
+      description: 'A single view of movement across holdings, decisions, and net position so the whole stack stays visible.',
+      icon: SparklesIcon,
     },
   ];
 
@@ -43,13 +43,13 @@ const Stats = () => {
       <div className="container mx-auto px-4">
         <div className="mb-16 text-center">
           <h2 className="mb-4 text-4xl font-bold text-gray-900 dark:text-white">
-            Built For Individuals Running
+            One Screen For
             <span className="block bg-gradient-to-r from-homa-800 via-homa-700 to-clay-500 bg-clip-text text-transparent">
-              Real Multi-Asset Economies
+              Your Full Wealth Stack
             </span>
           </h2>
           <p className="mx-auto max-w-2xl text-lg text-gray-600 dark:text-gray-300">
-            Homa is designed to connect everyday activity with long-term wealth outcomes, not just track expenses.
+            Homa shows what you hold, what each layer is returning, what Homa is adding, and how your total position is moving, so decisions come from live visibility instead of scattered accounts.
           </p>
         </div>
 
@@ -72,15 +72,15 @@ const Stats = () => {
         <div className="mt-16 flex flex-wrap items-center justify-center gap-8 opacity-80">
           <div className="flex items-center gap-2 text-gray-600 dark:text-gray-300">
             <LockClosedIcon className="h-5 w-5" />
-            <span className="text-sm font-medium">Bank-grade encryption</span>
+            <span className="text-sm font-medium">Visible custody and controls</span>
           </div>
           <div className="flex items-center gap-2 text-gray-600 dark:text-gray-300">
             <ShieldCheckIcon className="h-5 w-5" />
-            <span className="text-sm font-medium">Policy-driven approvals</span>
+            <span className="text-sm font-medium">Clear risk and policy layers</span>
           </div>
           <div className="flex items-center gap-2 text-gray-600 dark:text-gray-300">
-            <ClockIcon className="h-5 w-5" />
-            <span className="text-sm font-medium">Always-on personal ledger</span>
+            <ArrowsRightLeftIcon className="h-5 w-5" />
+            <span className="text-sm font-medium">Yield and allocation visibility</span>
           </div>
         </div>
       </div>

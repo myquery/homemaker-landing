@@ -9,10 +9,10 @@ const Contact = () => {
               data-wow-delay=".15s"
             >
               <h2 className="mb-3 text-2xl font-bold text-homa-900 dark:text-homa-100 sm:text-3xl lg:text-2xl xl:text-3xl">
-                Join the Homa Circle
+                Tell us how you already hold value
               </h2>
               <p className="mb-12 text-base font-medium text-homa-800 dark:text-homa-200">
-                Tell us how you want to earn, hold, grow, spend, cooperate, and govern better.
+                Naira balances, USDT, pre-purchased goods, cooperative pools, token positions, or investments. We want to know what your current wealth stack looks like.
               </p>
               <form>
                 <div className="-mx-4 flex flex-wrap">
@@ -52,12 +52,12 @@ const Contact = () => {
                         htmlFor="message"
                         className="mb-3 block text-sm font-medium text-homa-900 dark:text-homa-100"
                       >
-                        What are your finance priorities?
+                        What does your current wealth stack look like?
                       </label>
                       <textarea
                         name="message"
                         rows={5}
-                        placeholder="Share your goals for earning, holding, growing, spending, cooperating, or governing"
+                        placeholder="Share how you currently split value across naira, dollars, USDT, goods, group savings, or investments"
                         className="w-full resize-none rounded-lg border border-homa-300 bg-white px-6 py-3 text-base text-homa-900 outline-none focus:border-homa-500 dark:border-homa-700 dark:bg-homa-900/20 dark:text-homa-100 dark:shadow-none dark:focus:border-homa-500"
                       ></textarea>
                     </div>

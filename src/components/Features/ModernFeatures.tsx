@@ -4,57 +4,57 @@ import { SparklesIcon } from "@heroicons/react/24/outline";
 const pillars = [
   {
     id: "01",
-    title: "Earning",
-    subtitle: "Mine tokens",
-    description:
-      "Mine $HOMA by scanning receipts, completing tasks, planning shopping, and giving tips. Verified actions convert into digital value in real time.",
-    image: "/images/architecture/earning-grid.svg",
-    imageBg: "bg-homa-50 dark:bg-homa-900/20",
-  },
-  {
-    id: "02",
     title: "Holding",
-    subtitle: "Asset accumulation",
+    subtitle: "Multi-form wealth",
     description:
-      "Build your core position by buying and holding tokenized assets, bonds, T-bills, money market instruments, and tokens in one ledger. Holdings stay visible, controlled, and can earn baseline $HOMA.",
+      "Keep naira, USDT, HOMA, tokenized assets, T-bills, money market instruments, and savings buckets in one ledger so your full balance sheet stops living across disconnected apps and informal systems.",
     image: "/images/architecture/holding-grid.svg",
     imageBg: "bg-clay-50 dark:bg-clay-900/20",
   },
   {
-    id: "03",
+    id: "02",
     title: "Growing",
-    subtitle: "Investments + yield",
+    subtitle: "Yield architecture",
     description:
-      "Actively deploy selected balances from your holdings into vetted opportunities and yield pools to compound returns, with transparent risk labels for every decision.",
+      "Route eligible balances into sweeps, yield pools, and vetted opportunities with visible risk labels so the held part of your stack can start compounding instead of sitting idle.",
     image: "/images/architecture/growing-grid.svg",
+    imageBg: "bg-homa-50 dark:bg-homa-900/20",
+  },
+  {
+    id: "03",
+    title: "Cooperating",
+    subtitle: "Collective yield",
+    description:
+      "Turn group buying and cooperative pools into structured savings and discount vehicles, so shared purchasing becomes a serious cost and yield layer instead of an informal side process.",
+    image: "/images/architecture/cooperating-grid.svg",
     imageBg: "bg-homa-50 dark:bg-homa-900/20",
   },
   {
     id: "04",
     title: "Spending",
-    subtitle: "Intelligent shopping",
+    subtitle: "Intelligence layer",
     description:
-      "Use smart baskets, timing alerts, and price tracking to spend at the right moment without compromising quality.",
+      "Use receipts, shopping plans, merchant timing, and price signals to improve basket decisions. Spending becomes an optimization input for wealth, not just money leaving the account.",
     image: "/images/architecture/spending-grid.svg",
     imageBg: "bg-clay-50 dark:bg-clay-900/20",
   },
   {
     id: "05",
-    title: "Cooperating",
-    subtitle: "Bulk buying",
+    title: "Governing",
+    subtitle: "Controls and policy",
     description:
-      "Coordinate group orders with trusted buying circles to unlock better pricing, lower logistics, and collective leverage.",
-    image: "/images/architecture/cooperating-grid.svg",
-    imageBg: "bg-homa-50 dark:bg-homa-900/20",
+      "Set approvals, allocation rules, and spending limits so the whole system follows your own risk discipline before money moves anywhere.",
+    image: "/images/architecture/governing-grid.svg",
+    imageBg: "bg-clay-50 dark:bg-clay-900/20",
   },
   {
     id: "06",
-    title: "Governing",
-    subtitle: "Personal governance",
+    title: "Earning",
+    subtitle: "Data + incentives",
     description:
-      "Set approvals, decision rules, and spending limits so important money choices follow your own governance model.",
-    image: "/images/architecture/governing-grid.svg",
-    imageBg: "bg-clay-50 dark:bg-clay-900/20",
+      "Receipt scans and verified actions should make Homa smarter and unlock incentives. They are a support layer that enriches decisions, not the whole reason someone opens the app.",
+    image: "/images/architecture/earning-grid.svg",
+    imageBg: "bg-homa-50 dark:bg-homa-900/20",
   },
 ];
 
@@ -68,13 +68,13 @@ const ModernFeatures = () => {
             Homa Architecture
           </span>
           <h2 className="text-4xl font-black leading-tight text-gray-900 dark:text-white sm:text-5xl lg:text-6xl">
-            Six Pillars.
+            A Wealth Stack That Matches
             <span className="block bg-gradient-to-r from-homa-800 via-homa-700 to-clay-500 bg-clip-text text-transparent dark:from-homa-100 dark:via-homa-200 dark:to-clay-200">
-              One Personal Economy.
+              How You Already Hold Value.
             </span>
           </h2>
           <p className="mt-6 text-lg leading-relaxed text-gray-600 dark:text-gray-300 md:text-xl">
-            Homa merges token mining, wealth holding, investment growth, intelligent spending, cooperative purchasing, and shared governance into a single operating layer.
+            People already split value across naira accounts, USDT wallets, token positions, pre-purchased goods, and informal groups. Homa turns that scattered instinct into one coordinated system with visibility, yield, and controls.
           </p>
         </div>
 
@@ -121,10 +121,10 @@ const ModernFeatures = () => {
             Combined Outcome
           </p>
           <h3 className="mt-3 text-2xl font-black text-gray-900 dark:text-white md:text-3xl">
-            Personal cashflow becomes a coordinated, compounding engine.
+            Homa becomes yield infrastructure first, and the intelligence layer above it.
           </h3>
           <p className="mx-auto mt-4 max-w-3xl text-base leading-8 text-gray-600 dark:text-gray-300">
-            Earning feeds holding, holding secures your base, growing compounds the deployable part, spending gets smarter, cooperating lowers cost, and governance keeps everything aligned.
+            Holding is the center of gravity. Growing compounds the deployable part, cooperation lowers cost, spending sharpens allocation, governance protects discipline, and earning data keeps recommendations improving.
           </p>
         </div>
       </div>

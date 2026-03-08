@@ -26,7 +26,7 @@ const Footer = () => {
                 />
               </Link>
               <p className="mb-9 text-base leading-relaxed text-homa-800 dark:text-homa-200">
-                Homa helps users combine earning, holding, growing, spending, cooperating, and governing in one coordinated financial system.
+                Homa helps people bring naira, stable assets, tokenized instruments, marketplace savings, and cooperative value into one coordinated wealth stack.
               </p>
             </div>
           </div>
