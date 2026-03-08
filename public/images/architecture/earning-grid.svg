@@ -1,0 +1,44 @@
+<svg width="800" height="520" viewBox="0 0 800 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="earningBg" x1="64" y1="42" x2="710" y2="468" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#55662F"/>
+      <stop offset="0.55" stop-color="#6A7F39"/>
+      <stop offset="1" stop-color="#537F9C"/>
+    </linearGradient>
+    <linearGradient id="earningCard" x1="234" y1="116" x2="520" y2="398" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FAFCF6"/>
+      <stop offset="1" stop-color="#E8EDD8"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="520" rx="36" fill="url(#earningBg)"/>
+  <circle cx="119" cy="92" r="74" fill="#E8EDD8" fill-opacity="0.16"/>
+  <circle cx="696" cy="412" r="92" fill="#DAE5EE" fill-opacity="0.12"/>
+  <rect x="228" y="96" width="292" height="332" rx="34" fill="url(#earningCard)"/>
+  <rect x="248" y="126" width="252" height="34" rx="17" fill="#F5F7EE"/>
+  <circle cx="273" cy="143" r="9" fill="#6A7F39"/>
+  <rect x="290" y="136" width="126" height="14" rx="7" fill="#D2DCAD"/>
+  <rect x="248" y="180" width="150" height="16" rx="8" fill="#B8C980"/>
+  <rect x="248" y="210" width="172" height="12" rx="6" fill="#DAE5EE"/>
+  <rect x="248" y="236" width="138" height="12" rx="6" fill="#DAE5EE"/>
+  <rect x="248" y="262" width="164" height="12" rx="6" fill="#DAE5EE"/>
+  <rect x="248" y="302" width="252" height="96" rx="22" fill="#FFFFFF" fill-opacity="0.74"/>
+  <rect x="272" y="324" width="88" height="44" rx="18" fill="#E8EDD8"/>
+  <circle cx="316" cy="346" r="16" fill="#6A7F39"/>
+  <path d="M307 346H325" stroke="#F8FAF5" stroke-width="3" stroke-linecap="round"/>
+  <path d="M316 337V355" stroke="#F8FAF5" stroke-width="3" stroke-linecap="round"/>
+  <rect x="378" y="324" width="98" height="18" rx="9" fill="#DAE5EE"/>
+  <rect x="378" y="350" width="74" height="12" rx="6" fill="#BCD0DE"/>
+  <circle cx="154" cy="374" r="56" fill="#F5F7EE" fill-opacity="0.94"/>
+  <circle cx="154" cy="374" r="42" fill="#6A7F39"/>
+  <path d="M140 374H168" stroke="#F8FAF5" stroke-width="5" stroke-linecap="round"/>
+  <path d="M154 360V388" stroke="#F8FAF5" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="622" cy="146" r="48" fill="#F5F7EE" fill-opacity="0.9"/>
+  <path d="M598 145L616 162L646 128" stroke="#6A7F39" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="555" y="266" width="142" height="92" rx="26" fill="#223028" fill-opacity="0.46"/>
+  <rect x="579" y="292" width="38" height="38" rx="12" fill="#E8EDD8"/>
+  <path d="M590 311L599 320L607 301" stroke="#6A7F39" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="631" y="296" width="42" height="10" rx="5" fill="#DAE5EE"/>
+  <rect x="631" y="316" width="28" height="10" rx="5" fill="#BCD0DE"/>
+  <text x="84" y="120" fill="#F8FAF5" font-family="Poppins, sans-serif" font-size="20" font-weight="600">Receipt</text>
+  <text x="572" y="392" fill="#F8FAF5" fill-opacity="0.86" font-family="Poppins, sans-serif" font-size="20" font-weight="600">Reward actions</text>
+</svg>

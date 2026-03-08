@@ -63,7 +63,7 @@ const Contact = () => {
                     </div>
                   </div>
                   <div className="w-full px-4">
-                    <button className="rounded-lg bg-gradient-to-r from-homa-700 to-clay-600 px-9 py-4 text-base font-medium text-white shadow-submit duration-300 hover:from-homa-800 hover:to-clay-700 dark:shadow-none">
+                    <button className="rounded-lg bg-gradient-to-r from-homa-800 via-homa-700 to-clay-600 px-9 py-4 text-base font-medium text-white shadow-submit duration-300 hover:from-homa-900 hover:via-homa-800 hover:to-clay-700 dark:shadow-none">
                       Request Early Access
                     </button>
                   </div>

@@ -31,7 +31,7 @@ const ThemeToggler = () => {
       </span>
 
       <span
-        className={`relative z-10 flex h-8 w-8 transform items-center justify-center rounded-full bg-gradient-to-r from-homa-700 to-clay-600 text-white shadow transition-transform duration-300 ${
+        className={`relative z-10 flex h-8 w-8 transform items-center justify-center rounded-full bg-gradient-to-r from-homa-800 via-homa-700 to-clay-600 text-white shadow transition-transform duration-300 ${
           isDark ? "translate-x-12" : "translate-x-0"
         }`}
       >

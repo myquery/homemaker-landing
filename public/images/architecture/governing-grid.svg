@@ -1,0 +1,30 @@
+<svg width="800" height="520" viewBox="0 0 800 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="governBg" x1="76" y1="38" x2="722" y2="474" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#223028"/>
+      <stop offset="0.45" stop-color="#55662F"/>
+      <stop offset="1" stop-color="#314857"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="520" rx="36" fill="url(#governBg)"/>
+  <circle cx="130" cy="108" r="86" fill="#E8EDD8" fill-opacity="0.12"/>
+  <circle cx="702" cy="404" r="88" fill="#DAE5EE" fill-opacity="0.12"/>
+  <rect x="128" y="94" width="544" height="330" rx="36" fill="#F8FAF5" fill-opacity="0.08" stroke="#F8FAF5" stroke-opacity="0.18"/>
+  <rect x="166" y="132" width="240" height="254" rx="28" fill="#FFFFFF"/>
+  <rect x="440" y="132" width="194" height="120" rx="26" fill="#FFFFFF" fill-opacity="0.92"/>
+  <rect x="440" y="276" width="194" height="110" rx="26" fill="#223028" fill-opacity="0.52"/>
+  <path d="M218 180H354" stroke="#DAE5EE" stroke-width="14" stroke-linecap="round"/>
+  <circle cx="314" cy="180" r="18" fill="#6A7F39"/>
+  <path d="M218 240H354" stroke="#DAE5EE" stroke-width="14" stroke-linecap="round"/>
+  <circle cx="262" cy="240" r="18" fill="#537F9C"/>
+  <path d="M218 300H354" stroke="#DAE5EE" stroke-width="14" stroke-linecap="round"/>
+  <circle cx="336" cy="300" r="18" fill="#B8C980"/>
+  <path d="M504 168L536 192L584 146" stroke="#6A7F39" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="478" y="226" fill="#314857" font-family="Poppins, sans-serif" font-size="21" font-weight="700">Approvals live here</text>
+  <path d="M478 306H596" stroke="#DAE5EE" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="550" cy="306" r="16" fill="#E8EDD8"/>
+  <path d="M478 350H560" stroke="#DAE5EE" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="528" cy="350" r="16" fill="#96B7CB"/>
+  <path d="M104 456H310" stroke="#E8EDD8" stroke-width="10" stroke-linecap="round"/>
+  <text x="334" y="464" fill="#F8FAF5" font-family="Poppins, sans-serif" font-size="21" font-weight="700">Rules before money moves.</text>
+</svg>

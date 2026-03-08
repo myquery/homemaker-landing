@@ -21,7 +21,7 @@ const Header = () => {
     <header
       className={`header left-0 top-0 z-40 flex w-full items-center ${
         sticky
-          ? "fixed z-[9999] bg-homa-50/85 shadow-sticky backdrop-blur-sm transition dark:bg-gray-900 dark:shadow-sticky-dark"
+          ? "fixed z-[9999] bg-homa-50/90 shadow-sticky backdrop-blur-sm transition dark:bg-homa-900/95 dark:shadow-sticky-dark"
           : "absolute bg-transparent"
       }`}
     >
@@ -58,7 +58,7 @@ const Header = () => {
             </Link>
             <Link
               href="#"
-              className="ease-in-up shadow-btn hover:shadow-btn-hover hidden rounded-lg bg-gradient-to-r from-homa-700 to-clay-600 px-8 py-3 text-base font-medium text-white transition duration-300 hover:from-homa-800 hover:to-clay-700 md:block md:px-9 lg:px-6 xl:px-9"
+              className="ease-in-up shadow-btn hover:shadow-btn-hover hidden rounded-lg bg-gradient-to-r from-homa-800 via-homa-700 to-clay-600 px-8 py-3 text-base font-medium text-white transition duration-300 hover:from-homa-900 hover:via-homa-800 hover:to-clay-700 md:block md:px-9 lg:px-6 xl:px-9"
             >
               Create Account
             </Link>

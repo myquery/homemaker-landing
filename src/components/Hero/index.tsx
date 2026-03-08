@@ -24,7 +24,7 @@ const Hero = () => {
 
   return (
     <>
-      <section className="relative overflow-hidden bg-gradient-to-b from-homa-50 via-white to-clay-50/40 pt-[120px] pb-20 dark:bg-gradient-to-b dark:from-[#111710] dark:via-[#141d13] dark:to-[#1A2218] lg:pt-[150px]">
+      <section className="relative overflow-hidden bg-gradient-to-b from-homa-50 via-homa-100 to-clay-50 pt-[120px] pb-20 dark:bg-gradient-to-b dark:from-[#111710] dark:via-[#182113] dark:to-[#223028] lg:pt-[150px]">
         <div className="container mx-auto">
           <div className="flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
@@ -35,7 +35,7 @@ const Hero = () => {
                 </span>
                 <h1 className="mb-8 text-4xl font-black leading-[1.1] text-gray-900 dark:text-white sm:text-5xl lg:text-6xl xl:text-7xl">
                   Run Personal Wealth
-                  <span className="block bg-gradient-to-r from-homa-700 to-clay-500 bg-clip-text text-transparent dark:from-homa-200 dark:to-clay-200">
+                  <span className="block bg-gradient-to-r from-homa-800 via-homa-700 to-clay-500 bg-clip-text text-transparent dark:from-homa-100 dark:via-homa-200 dark:to-clay-200">
                     As One System
                   </span>
                 </h1>
@@ -45,7 +45,7 @@ const Hero = () => {
                 <div className="flex flex-col gap-4 sm:flex-row">
                   <Link
                     href="#"
-                    className="inline-flex items-center justify-center rounded-xl bg-gradient-to-r from-homa-700 to-homa-600 px-8 py-4 text-base font-semibold text-white transition-all duration-300 hover:from-homa-800 hover:to-homa-700 hover:shadow-lg"
+                    className="inline-flex items-center justify-center rounded-xl bg-gradient-to-r from-homa-800 via-homa-700 to-clay-500 px-8 py-4 text-base font-semibold text-white transition-all duration-300 hover:from-homa-900 hover:via-homa-800 hover:to-clay-600 hover:shadow-lg"
                   >
                     Open Homa
                     <ArrowRightIcon className="ml-2 h-5 w-5" />
@@ -79,7 +79,7 @@ const Hero = () => {
                         </div>
                       </div>
 
-                      <div className="mb-6 rounded-2xl bg-gradient-to-r from-homa-700 to-clay-500 p-4 text-white">
+                      <div className="mb-6 rounded-2xl bg-gradient-to-r from-homa-800 via-homa-700 to-clay-500 p-4 text-white">
                         <div className="text-sm opacity-90">Personal Net Position</div>
                         <div className="text-2xl font-bold">12,480 $HOMA</div>
                         <div className="text-sm opacity-90">Across cash, tokens, and assets</div>
@@ -126,8 +126,8 @@ const Hero = () => {
                 <div className="absolute -top-4 -right-4 z-0 flex h-16 w-16 animate-pulse items-center justify-center rounded-full bg-homa-100 opacity-60">
                   <WalletIcon className="h-8 w-8 text-homa-700" />
                 </div>
-                <div className="absolute -bottom-8 -left-8 z-0 flex h-20 w-20 animate-pulse items-center justify-center rounded-full bg-clay-100 opacity-40">
-                  <UserGroupIcon className="h-10 w-10 text-clay-600" />
+                <div className="absolute -bottom-8 -left-8 z-0 flex h-20 w-20 animate-pulse items-center justify-center rounded-full bg-homa-100 opacity-50 ring-1 ring-clay-200/60">
+                  <UserGroupIcon className="h-10 w-10 text-homa-700" />
                 </div>
                 <div className="absolute top-1/2 -right-8 z-0 flex h-14 w-14 animate-pulse items-center justify-center rounded-full bg-homa-100 opacity-50">
                   <ScaleIcon className="h-7 w-7 text-homa-700" />
@@ -138,8 +138,8 @@ const Hero = () => {
         </div>
 
         <div className="absolute inset-0 -z-10 overflow-hidden">
-          <div className="absolute -top-40 -right-32 h-80 w-80 rounded-full bg-gradient-to-br from-homa-100 to-clay-100 opacity-40 blur-3xl"></div>
-          <div className="absolute -bottom-40 -left-32 h-80 w-80 rounded-full bg-gradient-to-tr from-homa-50 to-clay-100 opacity-40 blur-3xl"></div>
+          <div className="absolute -top-40 -right-32 h-80 w-80 rounded-full bg-gradient-to-br from-homa-100 via-homa-100 to-clay-100 opacity-40 blur-3xl"></div>
+          <div className="absolute -bottom-40 -left-32 h-80 w-80 rounded-full bg-gradient-to-tr from-homa-50 via-homa-100 to-clay-100 opacity-40 blur-3xl"></div>
         </div>
       </section>
     </>

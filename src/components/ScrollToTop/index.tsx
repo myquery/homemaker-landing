@@ -1,3 +1,5 @@
+"use client";
+
 import { useEffect, useState } from "react";
 
 export default function ScrollToTop() {
@@ -29,7 +31,7 @@ export default function ScrollToTop() {
         <button
           onClick={scrollToTop}
           aria-label="scroll to top"
-          className="flex h-12 w-12 cursor-pointer items-center justify-center rounded-full bg-gradient-to-br from-amber-500 to-amber-600 text-white shadow-md shadow-amber-500/20 transition-all duration-300 ease-in-out hover:from-amber-600 hover:to-amber-700 hover:shadow-amber-600/30 focus:outline-none focus:ring-2 focus:ring-amber-500 focus:ring-opacity-50 dark:from-amber-600 dark:to-amber-700 dark:hover:from-amber-700 dark:hover:to-amber-800"
+          className="flex h-12 w-12 cursor-pointer items-center justify-center rounded-full bg-gradient-to-br from-homa-800 via-homa-700 to-clay-600 text-white shadow-md shadow-homa-900/20 transition-all duration-300 ease-in-out hover:from-homa-900 hover:via-homa-800 hover:to-clay-700 hover:shadow-homa-900/30 focus:outline-none focus:ring-2 focus:ring-homa-500 focus:ring-opacity-60 dark:from-homa-700 dark:via-homa-600 dark:to-clay-600 dark:hover:from-homa-800 dark:hover:via-homa-700 dark:hover:to-clay-700"
         >
           <span className="mt-[6px] h-3 w-3 rotate-45 border-l-2 border-t-2 border-white"></span>
         </button>

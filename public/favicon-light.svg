@@ -1,12 +1,12 @@
 <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="homaFav" x1="2" y1="2" x2="30" y2="30" gradientUnits="userSpaceOnUse">
+    <linearGradient id="homaFavLight" x1="2" y1="2" x2="30" y2="30" gradientUnits="userSpaceOnUse">
       <stop stop-color="#6A7F39"/>
       <stop offset="1" stop-color="#537F9C"/>
     </linearGradient>
   </defs>
 
-  <rect x="2" y="2" width="28" height="28" rx="8" fill="url(#homaFav)"/>
+  <rect x="2" y="2" width="28" height="28" rx="8" fill="url(#homaFavLight)"/>
 
   <path d="M9 16L16 9L23 16" stroke="#F8FAF5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
   <path d="M11 22V14M21 22V14M11 18H21" stroke="#F8FAF5" stroke-width="2" stroke-linecap="round"/>

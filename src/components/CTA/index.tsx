@@ -12,7 +12,7 @@ import {
 
 const CTA = () => {
   return (
-    <section className="relative overflow-hidden bg-gradient-to-br from-homa-800 via-homa-700 to-clay-600 py-20">
+    <section className="relative overflow-hidden bg-gradient-to-br from-homa-900 via-homa-700 to-clay-600 py-20">
       <div className="container relative z-10 mx-auto px-4">
         <div className="mx-auto max-w-4xl text-center">
           <h2 className="mb-6 text-4xl font-bold text-white md:text-5xl">

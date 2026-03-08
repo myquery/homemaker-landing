@@ -11,9 +11,6 @@ export const metadata: Metadata = {
   title: "Homa, Earn Hold Grow Spend Cooperate Govern",
   description:
     "Homa combines token mining, multi-asset holding, investing, intelligent shopping, cooperative buying, and personal governance in one app.",
-  icons: {
-    icon: "/favicon.svg", // This replaces favicon.ico
-  },
   // other metadata
 };
 

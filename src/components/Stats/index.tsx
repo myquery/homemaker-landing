@@ -44,7 +44,7 @@ const Stats = () => {
         <div className="mb-16 text-center">
           <h2 className="mb-4 text-4xl font-bold text-gray-900 dark:text-white">
             Built For Individuals Running
-            <span className="block bg-gradient-to-r from-homa-700 to-clay-500 bg-clip-text text-transparent">
+            <span className="block bg-gradient-to-r from-homa-800 via-homa-700 to-clay-500 bg-clip-text text-transparent">
               Real Multi-Asset Economies
             </span>
           </h2>
@@ -63,7 +63,7 @@ const Stats = () => {
                 <stat.icon className="mx-auto h-10 w-10 text-homa-700 dark:text-homa-300" />
               </div>
               <div className="mb-2 text-3xl font-bold text-gray-900 dark:text-white">{stat.number}</div>
-              <div className="mb-2 text-lg font-semibold text-clay-600 dark:text-clay-300">{stat.label}</div>
+              <div className="mb-2 text-lg font-semibold text-homa-700 dark:text-homa-200">{stat.label}</div>
               <div className="text-sm text-gray-600 dark:text-gray-300">{stat.description}</div>
             </div>
           ))}
